@@ -12,7 +12,6 @@ function gameResult() {
             break;
         } else {
             if (i == 2) {
-                console.log("You lose!");
                 result.innerText = `You lose! Correct answer is ${correcr_ans}`;
             }
             else if (correcr_ans < user_num) {
